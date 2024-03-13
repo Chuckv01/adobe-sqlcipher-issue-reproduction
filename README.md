@@ -4,7 +4,7 @@ A example iOS project that reproduces an iOS build error when using [Adobe Exper
 
 Summary of the problem is [this line of code](https://github.com/adobe/aepsdk-core-ios/blob/4.2.3/AEPServices/Sources/dataqueue/SQLiteWrapper.swift#L14) in Adobe's `AEPServices` library causes the `Redefinition of 'sqlite3_file'` error.
 
-This issue is [explained here](https://www.zetetic.net/sqlcipher/ios-tutorial/#option-2-cocoapod-integration).
+The solution [explained here](https://www.zetetic.net/sqlcipher/ios-tutorial/#option-2-cocoapod-integration) has not worked.
 
 <img src="@docs/issue.png">
 
