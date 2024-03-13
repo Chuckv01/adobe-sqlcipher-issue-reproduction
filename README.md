@@ -7,3 +7,5 @@ Reproduces an iOS build error when using [Adobe Experience Platform Mobile SDKs]
 Summary of the problem is [this line of code](https://github.com/adobe/aepsdk-core-ios/blob/4.2.3/AEPServices/Sources/dataqueue/SQLiteWrapper.swift#L14) in Adobe's lib causes [this issue](https://www.zetetic.net/sqlcipher/ios-tutorial/#option-2-cocoapod-integration):
 
 <img src="@docs/sqlcipher.png">
+
+Many attempts at the [solution suggested here](https://discuss.zetetic.net/t/important-advisory-sqlcipher-with-xcode-8-and-new-sdks/1688) have not panned out.
