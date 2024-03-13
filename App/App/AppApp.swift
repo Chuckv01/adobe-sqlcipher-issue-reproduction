@@ -6,6 +6,11 @@
 //
 
 import SwiftUI
+import AEPCore
+import AEPIdentity
+import AEPLifecycle
+import AEPAnalytics
+import AEPServices
 
 @main
 struct AppApp: App {

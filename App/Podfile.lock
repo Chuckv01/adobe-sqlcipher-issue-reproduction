@@ -1,0 +1,48 @@
+PODS:
+  - AEPAnalytics (4.0.1):
+    - AEPCore (< 5.0.0, >= 4.0.0)
+    - AEPServices (< 5.0.0, >= 4.0.0)
+  - AEPCore (4.2.3):
+    - AEPRulesEngine (< 5.0.0, >= 4.0.0)
+    - AEPServices (< 5.0.0, >= 4.2.3)
+  - AEPIdentity (4.2.3):
+    - AEPCore (< 5.0.0, >= 4.2.3)
+  - AEPLifecycle (4.2.3):
+    - AEPCore (< 5.0.0, >= 4.2.3)
+  - AEPRulesEngine (4.0.0)
+  - AEPServices (4.2.3)
+  - SQLCipher (4.5.6):
+    - SQLCipher/standard (= 4.5.6)
+  - SQLCipher/common (4.5.6)
+  - SQLCipher/standard (4.5.6):
+    - SQLCipher/common
+
+DEPENDENCIES:
+  - AEPAnalytics
+  - AEPCore
+  - AEPIdentity
+  - AEPLifecycle
+  - SQLCipher
+
+SPEC REPOS:
+  trunk:
+    - AEPAnalytics
+    - AEPCore
+    - AEPIdentity
+    - AEPLifecycle
+    - AEPRulesEngine
+    - AEPServices
+    - SQLCipher
+
+SPEC CHECKSUMS:
+  AEPAnalytics: f1c62439533f49130e7a9db86ba4290a422a999e
+  AEPCore: 7ab5e149947a71d7486818bde393cddc513df271
+  AEPIdentity: 8b64c2cc896f1a8546b7f20d9fdbd4ba6079f21c
+  AEPLifecycle: b676303a42386aca38bea8e927f391e12cac43e3
+  AEPRulesEngine: 458450a34922823286ead045a0c2bd8c27e224c6
+  AEPServices: d870535b75682be9c440d3cdf2cbd0481e450aff
+  SQLCipher: 838309284f29953a28ad2e81d87d55ea6b7c74fd
+
+PODFILE CHECKSUM: 543dc24ade37791a6fe33c4a866cfa9a95537d4e
+
+COCOAPODS: 1.14.3
